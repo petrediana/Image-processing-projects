@@ -6,8 +6,8 @@ function [] = filtru_invers( img_perturbata, T, axa, prag_0)
     %   prag_0 -> pragul sub care valorile din filtru sunt considerate nule
     
     % Exemplu apel:
-        % filtru_invers('img_p_DC_1_axa_x.png', 1, 'x', 0.09);
-        % filtru_invers('img_p_DC_1_axa_y.png', 1, 'y', 0.1);
+        % filtru_invers('img_p_DC_1_axa_x.png', 1, 'x', 0.001
+        % filtru_invers('img_p_DC_1.8_axa y.png', 'filtru_orizontal_val_unif.txt')
 
     [img, m, n] = citeste_img_initiala(img_perturbata);
     afisare_imagine(img, 'Img initiala');
