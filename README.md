@@ -2,7 +2,7 @@
 
 It includes the following techniques:
   - Karhunen-Loeve representation for images with 250x250 dimension
-    - The image is divded into blocks
+    - The image is divided into blocks
   - Unsharp masking procedure
   - Low pass gaussian filter
   - Adaptive median filtering
